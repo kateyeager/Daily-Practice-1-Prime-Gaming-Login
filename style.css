@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  line-height: 19px;
+  align-items: center;
+  color: #111;
+}
+
+img {
+  vertical-align: top;
+  max-width: 100%;
+  padding: 14px;
+}
+
+.sign-in-container {
+  padding: 20px 26px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 22px;
+  height: 489.6px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.2;
+}
+
+p {
+  margin-bottom: 14px;
+  width: 296px;
+}
+
+label {
+  display: block;
+  padding-left: 2px;
+  padding-bottom: 2px;
+  font-weight: 700;
+}
+
+.a-input-text {
+  width: 280px;
+  height: 23px;
+  border: 1px solid #a6a6a6;
+  border-top-color: rgb(166, 166, 166);
+  border-top-color: #949494;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5),
+    0 1px 0 rgba(0, 0, 0, 0.07) inset;
+  padding: 3px 7px;
+}
+
+a {
+  text-decoration: none;
+  color: #0066c0;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #c45500;
+}
+
+.pw-section {
+}
+
+.pw-span {
+  display: flex;
+  width: 296px;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+button {
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #adb1b8 #a2a6ac #8d9096;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 296px;
+  height: 29px;
+}
+
+button a {
+  color: black;
+}
+
+button a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#sign-in-submit {
+  display: block;
+  margin-top: 15px;
+  background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
+
+#sign-in-submit:hover {
+  background: #f0c14b;
+}
+
+#legal-text {
+  width: 279px;
+  font-size: 12px !important;
+  line-height: 1.5 !important;
+  margin-top: 18px !important;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links {
+  justify-content: space-evenly;
+}

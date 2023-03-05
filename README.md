@@ -1,4 +1,4 @@
-# Daily Practice #1: Prime Gaming Login Page
+# Prime Gaming Login
 
-- Practice
+- Webpage Practice
 - Replicating UI
